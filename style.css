@@ -20,17 +20,20 @@ align-items: center;
 header{
     text-align: center;
     margin-bottom: 50px;
+
 }
 
 header h1{
 font-size: 3rem;
 margin-bottom: 10px;
+font-weight: 600;
+letter-spacing: 2px;
 }
 
 header h2{
     font-size: 1.5rem;
     font-weight: normal;
-    margin-top: 0;
+    margin-top: 3px;
 }
 
 header p{
@@ -49,8 +52,18 @@ main{
 }
 
 .piano-section h2{
-    font-weight: normal;    
+    font-weight: 500;    
     font-style:italic;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+
+
+.music-line{
+    height: 1px;
+    background-color: #7a3045;
+    margin-bottom: 25px;
 }
 
 .piano{ 
@@ -135,6 +148,12 @@ background-color: #eee;
 footer{
     margin-top: 50px;
     padding: 30px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+footer p{
+    margin: 5px;
 }
 
 
