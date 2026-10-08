@@ -157,6 +157,33 @@ footer p{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
+   
+   header h1 {
+        font-size: 35px;
+    }
 
+    header h2 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    section h2 {
+        font-size: 23px;
+    }
+   
+    .white-key {
+        height: 250px;
+    }
+
+    .black-key {
+        font-size: 2px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }
