@@ -18,8 +18,6 @@ keycs.addEventListener("click", () => {
 });
 
 
-
-
 const keyD = document.getElementById("key-d");
 const soundD = new Audio ("sounds/D.mp3");
 keyD.addEventListener("click", () => {
