@@ -1,3 +1,5 @@
+const information = document.getElementById("information");
+
 const keyC = document.getElementById("key-c");
 const soundC = new Audio ("sounds/C.mp3");
 keyC.addEventListener("click", () => {
@@ -8,7 +10,14 @@ keyC.addEventListener("click", () => {
 information.scrollIntoView({behavior: "smooth"});
 });
 
-const information = document.getElementById("information");
+
+const keycs = document.getElementById("key-cs");
+const soundcs = new Audio ("sounds/cs.mp3");
+keycs.addEventListener("click", () => {
+    soundcs.play();
+});
+
+
 
 
 const keyD = document.getElementById("key-d");
@@ -19,6 +28,14 @@ keyD.addEventListener("click", () => {
     information.innerHTML = "<h2>My Skills</h2><p>My current skills include HTML, CSS, and JavaScript, along with responsive web design, Flexbox, and basic programming. I’m continuously developing my full stack skills and enjoy problem-solving, learning new technologies, and creating interactive digital experiences.</p>";
     information.scrollIntoView({behavior: "smooth"});
 });
+
+
+const keyds = document.getElementById("key-ds");
+const soundds = new Audio ("sounds/ds.mp3");
+keyds.addEventListener("click", () => {
+    soundds.play();
+});
+
 
 const keyE = document.getElementById("key-e");
 const soundE = new Audio ("sounds/E.mp3");
@@ -38,6 +55,15 @@ keyF.addEventListener("click", () => {
     information.scrollIntoView({behavior: "smooth"});
 });
 
+const keyfs = document.getElementById("key-fs");
+const soundfs = new Audio ("sounds/fs.mp3");
+keyfs.addEventListener("click", () => {
+    soundfs.play();
+});
+
+
+
+
 const keyG = document.getElementById("key-g");
 const soundG = new Audio ("sounds/G.mp3");
 keyG.addEventListener("click", () => {
@@ -47,6 +73,14 @@ keyG.addEventListener("click", () => {
     information.scrollIntoView({behavior: "smooth"});
 });
 
+const keygs = document.getElementById("key-gs");
+const soundgs = new Audio ("sounds/gs.mp3");
+keygs.addEventListener("click", () => {
+    soundgs.play();
+});
+
+
+
 const keyA = document.getElementById("key-a");
 const soundA = new Audio ("sounds/A.mp3");
 keyA.addEventListener("click", () => {
@@ -55,6 +89,14 @@ keyA.addEventListener("click", () => {
     information.innerHTML = "<h2>My Contact Information</h2><p>Feel free to reach out to me if you have any questions or would like to collaborate!</p>";
     information.scrollIntoView({behavior: "smooth"});
 });
+
+const keyas = document.getElementById("key-as");
+const soundas = new Audio ("sounds/as.mp3");
+keyas.addEventListener("click", () => {
+    soundas.play();
+});
+
+
 
 const keyB = document.getElementById("key-b");
 const soundB = new Audio ("sounds/B.mp3");
